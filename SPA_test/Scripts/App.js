@@ -34,7 +34,7 @@ app.controller("LoginController", function ($scope) {
 app.controller("MessagesController", ['$scope', '$http', function ($scope, $http) {
     $scope.Date = "Date";
     $scope.Id = "Id";
-    $scope.SortBy = "";
+    $scope.SortBy = "Id";
     $scope.Sort = function (SortMethod) {
         let returnVal = SortMethod;
         if (SortMethod.charAt(0) != "-") {
