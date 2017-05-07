@@ -11,11 +11,15 @@
 
 .sort-headers{
     color: cornflowerblue;
+    cursor: pointer;
 }
 
 table{
     text-align:center;
     width: 100%;
+}
+th{
+    text-align:center;
 }
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
